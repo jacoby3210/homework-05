@@ -573,3 +573,293 @@ h1, h2, h3, h4, h5, menu, p {
 	height: 507px;
 	width: 643px;
 }
+
+/* plans  */
+
+.plans {
+	background: #FAFAFA;
+}
+
+.plans .section_view {
+    flex-direction: column;
+	gap: 48px;
+}
+
+.plan_view {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	align-self: stretch;
+}
+
+.plan_sample {
+	background: #FFF;
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+
+	display: flex;
+	padding: 32px;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+	flex: 1 0 0;
+}
+
+.price {
+	width: 314px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dollar {
+	align-self: stretch;
+	color: #000;
+
+	text-align: right;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 100%; /* 24px */
+}
+
+.value {
+	color: #000;
+
+	text-align: center;
+	font-family: Inter;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.period {
+	align-self: stretch;
+	color: #000;
+
+	text-align: center;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 100%;
+
+	display: flex;
+	box-sizing: border-box;
+	padding: 50px 0px 13px 0px;
+	height: 87px;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.plan_options {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	color: #666;
+
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 250%; 
+}
+
+.plan_menu {
+	padding-top: 8px;
+}
+
+.plan_recomended {
+	padding: 64px 32px;
+}
+
+.plan_recomended h3 {
+	color: #F25822;
+
+	text-align: center;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.button_shadow {
+	background: rgba(242, 88, 34, 0.5);
+	border-radius: 56px;
+}
+
+/*  */
+
+.teams .section_view {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 48px;
+}
+
+.persons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	align-self: stretch;
+}
+
+.person {
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	flex: 1 0 0;
+}
+
+.person_portrait {
+	height: 130px;
+	width: 130px;
+	flex-shrink: 0;
+}
+
+.person_info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+	align-self: stretch;
+}
+
+.person_info p {
+	align-self: stretch;
+	color: #666;
+
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.link_menu {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.link_menu a {
+	padding: 0px;
+	min-height: 16px;
+	min-width: 16px;
+	background-repeat: no-repeat;
+}
+
+.link_facebook {
+	height: 30px;
+	width: 30px;
+	background-image: url(res/images/link_facebook.svg);
+}
+
+.link_twitter {
+	background-image: url(res/images/link_twitter.svg);
+}
+
+.link_linkedin {
+	background-image: url(res/images/link_linkedin.svg);
+}
+
+.link_google {
+	background-image: url(res/images/link_google.svg);
+}
+
+/* footer */
+
+.footer_site {
+	background-color: #FAFAFA;
+}
+
+.footer_site .section_view {
+	flex-direction: column;
+	gap: 48px;
+}
+
+.footer_columns {
+	display: flex;
+	flex-direction: row;
+	gap: 23px;
+}
+
+.footer_column {
+	width: 246px;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.info {
+	display: flex; 
+	flex-direction: column; 
+	gap: 29px;
+
+	color: #666666;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+}
+
+.footer_column h3 {
+	justify-content: left;
+	text-align: left;
+}
+
+.footer_nav {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.footer_nav a {
+	box-sizing: border-box;
+	height: 29px;
+	justify-content: space-between;
+}
+
+.footer_contacts p {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.rectangle {
+	height: 3px;
+	background-color: #cccccc;
+}
+
+.copyright {
+	text-align: center;
+	align-self: stretch;
+	color: #666;
+
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+h3 {
+	color: #000;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-align: center;
+}
