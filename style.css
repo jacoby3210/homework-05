@@ -370,3 +370,206 @@ h1, h2, h3, h4, h5, menu, p {
 	align-items: center;
 	gap: 4px;
 }
+
+/* what_we_do */
+
+.what_we_do .section_view {
+	height: 888px;
+
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	justify-content: flex-end;
+}
+
+.what_we_do_background {
+	height: 800px;
+	width: 884px;
+	flex-shrink: 0;
+}
+
+.what_we_do_card {
+	width: 643px;
+
+    display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-shrink: 0;
+	justify-content: center;
+	gap: 32px;
+}
+
+.what_we_do_card_header {
+    align-items: start;
+    text-align: left;
+}
+
+.what_we_do_sample {
+	padding: 24px;
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	align-self: stretch;
+}
+
+.what_we_do_icon {
+	height: 100px;
+	width: 100px;
+}
+
+.what_we_do_sample_summary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    flex: 1 0 0;
+}
+
+.what_we_do_card p {
+	color: #666;
+
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 24px */
+}
+
+/*  */
+
+.fun_fact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 61px;
+}
+
+.fun_fact_view {
+	display: flex;
+	width: 1174px;
+	padding: 56px 0px;
+	justify-content: center;
+	align-items: center;
+	gap: 72px;
+	flex-shrink: 0;
+}
+
+.fun_fact div {
+	color: #666;
+
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%; /* 24px */
+	text-align: center;
+}
+
+.fun_fact_number {
+	color: #666;
+
+	font-family: Inter;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120%; /* 86.4px */
+}
+
+.fun_fact img {
+	width: 32px;
+	height: 32px;
+	flex-shrink: 0;
+}
+
+/* mail_box */
+
+.mail_box .section_view{
+	gap: 61px;
+}
+
+.mail_box > div > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 32px;
+}
+
+.mail_box_header {
+    text-align: left;
+}
+
+.mail_box input {
+	box-sizing: border-box;
+	width: 180px;
+	height: 51px;
+	padding: 16px;
+	background: #EEE;
+}
+
+.mail_box menu {
+	display: flex;
+	width: 511px;
+	align-items: center;
+	gap: 8px;
+}
+
+.mail_box menu > div {
+	display: flex;
+	align-items: flex-start;
+}
+
+.mail_box menu .line {
+	height: 51px;
+	width: 2px;
+	background-image: url("res/images/base_line.svg");
+}
+
+.mail {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	
+	border-radius: 0px 56px 56px 0px;
+
+	color: #666;
+
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.site {
+	border-radius: 56px 0px 0px 56px;
+}
+
+.check {
+	padding: 16px 10px;
+	width: 140px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-shrink: 0;
+
+	border-radius: 56px;
+	background: #F25822;
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+
+	color: #FFF;
+
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.mail_box img {
+	flex-shrink: 0;
+	height: 507px;
+	width: 643px;
+}
