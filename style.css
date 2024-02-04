@@ -8,13 +8,13 @@
 }
 
 a {
-    padding: 0px;
 
+	padding: 10px;
+	
 	font-size: 14px;
 	font-weight: 400;
 	line-height: normal;
 
-	padding: 10px;
 	display: flex;
 
 }
@@ -38,6 +38,22 @@ h1, h2, h3, h4, h5, menu, p {
     margin: 0;
 	padding: 0;
 }
+
+h3 {
+	color: #000;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-align: center;
+}
+
+p {
+	color: #666;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 24px */
+} 
 
 /*  */
 
@@ -63,6 +79,11 @@ h1, h2, h3, h4, h5, menu, p {
 	line-height: normal;
 }
 
+.button_shadow {
+	background: rgba(242, 88, 34, 0.5);
+	border-radius: 56px;
+}
+
 .header {
 	display: flex;
 	flex-direction: column;
@@ -75,7 +96,6 @@ h1, h2, h3, h4, h5, menu, p {
 .header h1 {
 	color: #000;
 
-	font-family: Inter;
 	font-size: 48px;
 	font-style: normal;
 	font-weight: 700;
@@ -85,10 +105,7 @@ h1, h2, h3, h4, h5, menu, p {
 .header p {
 	color: #888;
 
-	font-family: Inter;
 	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
 	line-height: 140%; /* 22.4px */
 	align-self: stretch;
 }
@@ -100,6 +117,10 @@ h1, h2, h3, h4, h5, menu, p {
 	background: #FFF;
 }
 
+.section_highlight {
+	background: #FAFAFA;
+}
+
 .section_view {
 	padding: 100px 0px;
 	width: 1174px;
@@ -109,11 +130,13 @@ h1, h2, h3, h4, h5, menu, p {
 /* main header */
 
 .header_site {
-	padding: 40px 0px 84px 0px;
+	padding: 40px 0px 84px;
     height: 40px;
 	width: 1174px;
 
     display: flex;
+	align-self: center;
+	flex-direction: row;
 	gap: 460px;
 	justify-content: space-between;
 }
@@ -214,6 +237,7 @@ h1, h2, h3, h4, h5, menu, p {
 /* features */
 
 .features .section_view {
+	align-items: center;
 	gap: 61px;
     justify-content: center;
 }
@@ -254,11 +278,7 @@ h1, h2, h3, h4, h5, menu, p {
 	width: 310px;
 	height: 42px;
 
-	color: #666;
-
 	font-size: 14px;
-	font-style: normal;
-	font-weight: 400;
 	line-height: 150%;
 }
 
@@ -273,10 +293,6 @@ h1, h2, h3, h4, h5, menu, p {
 }
 
 /* services */
-
-.services  {
-	background: #FAFAFA;
-}
 
 .services .section_view {
 	flex-direction: column;
@@ -332,7 +348,6 @@ h1, h2, h3, h4, h5, menu, p {
 .service_info h3 {
 	color: #000;
 	align-self: stretch;
-	font-family: Inter;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 700;
@@ -341,14 +356,9 @@ h1, h2, h3, h4, h5, menu, p {
 }
 
 .service_info p {
-	color: #666;
 
 	align-self: stretch;
-	font-family: Inter;
 	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 150%; /* 24px */
 	text-align: center;
 }
 
@@ -358,7 +368,6 @@ h1, h2, h3, h4, h5, menu, p {
 	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
 
 	color: #FFF;
-	font-family: Inter;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 600;
@@ -426,13 +435,7 @@ h1, h2, h3, h4, h5, menu, p {
 }
 
 .what_we_do_card p {
-	color: #666;
-
-	font-family: Inter;
 	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 150%; /* 24px */
 }
 
 /*  */
@@ -457,7 +460,6 @@ h1, h2, h3, h4, h5, menu, p {
 .fun_fact div {
 	color: #666;
 
-	font-family: Inter;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 600;
@@ -468,7 +470,6 @@ h1, h2, h3, h4, h5, menu, p {
 .fun_fact_number {
 	color: #666;
 
-	font-family: Inter;
 	font-size: 72px;
 	font-style: normal;
 	font-weight: 700;
@@ -534,7 +535,6 @@ h1, h2, h3, h4, h5, menu, p {
 
 	color: #666;
 
-	font-family: Inter;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
@@ -561,7 +561,6 @@ h1, h2, h3, h4, h5, menu, p {
 
 	color: #FFF;
 
-	font-family: Inter;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 600;
@@ -575,10 +574,6 @@ h1, h2, h3, h4, h5, menu, p {
 }
 
 /* plans  */
-
-.plans {
-	background: #FAFAFA;
-}
 
 .plans .section_view {
     flex-direction: column;
@@ -617,7 +612,6 @@ h1, h2, h3, h4, h5, menu, p {
 	color: #000;
 
 	text-align: right;
-	font-family: Inter;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
@@ -628,7 +622,6 @@ h1, h2, h3, h4, h5, menu, p {
 	color: #000;
 
 	text-align: center;
-	font-family: Inter;
 	font-size: 72px;
 	font-style: normal;
 	font-weight: 700;
@@ -640,7 +633,6 @@ h1, h2, h3, h4, h5, menu, p {
 	color: #000;
 
 	text-align: center;
-	font-family: Inter;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
@@ -662,7 +654,6 @@ h1, h2, h3, h4, h5, menu, p {
 	color: #666;
 
 	text-align: center;
-	font-family: Inter;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -681,16 +672,10 @@ h1, h2, h3, h4, h5, menu, p {
 	color: #F25822;
 
 	text-align: center;
-	font-family: Inter;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-}
-
-.button_shadow {
-	background: rgba(242, 88, 34, 0.5);
-	border-radius: 56px;
 }
 
 /*  */
@@ -735,14 +720,9 @@ h1, h2, h3, h4, h5, menu, p {
 
 .person_info p {
 	align-self: stretch;
-	color: #666;
 
 	text-align: center;
-	font-family: Inter;
 	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 150%;
 }
 
 .link_menu {
@@ -803,14 +783,13 @@ h1, h2, h3, h4, h5, menu, p {
 .info {
 	display: flex; 
 	flex-direction: column; 
-	gap: 29px;
+	/* gap: 29px; */
 
-	color: #666666;
-	font-family: 'Inter';
+	/* color: #666666;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 150%;
+	line-height: 150%; */
 }
 
 .footer_column h3 {
@@ -832,9 +811,6 @@ h1, h2, h3, h4, h5, menu, p {
 
 .footer_contacts p {
 	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 150%;
 }
 
 .rectangle {
@@ -848,18 +824,8 @@ h1, h2, h3, h4, h5, menu, p {
 	color: #666;
 
 	text-align: center;
-	font-family: Inter;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 150%;
-}
-
-h3 {
-	color: #000;
-	font-size: 24px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	text-align: center;
 }
